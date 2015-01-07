@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0D07C4E1A5D328100F30101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D07C4D1A5D328100F30101 /* main.m */; };
+		F0D07C511A5D328100F30101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D07C501A5D328100F30101 /* AppDelegate.m */; };
+		F0D07C541A5D328100F30101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D07C531A5D328100F30101 /* ViewController.m */; };
+		F0D07C571A5D328100F30101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D07C551A5D328100F30101 /* Main.storyboard */; };
+		F0D07C591A5D328100F30101 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D07C581A5D328100F30101 /* Images.xcassets */; };
+		F0D07C5C1A5D328100F30101 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0D07C5A1A5D328100F30101 /* LaunchScreen.xib */; };
+		F0D07C681A5D328100F30101 /* SlingAlertExplorationPart1V1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D07C671A5D328100F30101 /* SlingAlertExplorationPart1V1Tests.m */; };
+		F0D07C761A5D372200F30101 /* CBPeripheral+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D07C731A5D372200F30101 /* CBPeripheral+Ext.m */; };
+		F0D07C771A5D372200F30101 /* CBCentralManager+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D07C751A5D372200F30101 /* CBCentralManager+Ext.m */; };
+		F0D07C7A1A5D375F00F30101 /* Siren_Noise-KevanGC-1337458893.caf in Resources */ = {isa = PBXBuildFile; fileRef = F0D07C791A5D375F00F30101 /* Siren_Noise-KevanGC-1337458893.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0D07C621A5D328100F30101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0D07C401A5D328100F30101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0D07C471A5D328100F30101;
+			remoteInfo = SlingAlertExplorationPart1V1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0D07C481A5D328100F30101 /* SlingAlertExplorationPart1V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlingAlertExplorationPart1V1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D07C4C1A5D328100F30101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D07C4D1A5D328100F30101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0D07C4F1A5D328100F30101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0D07C501A5D328100F30101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0D07C521A5D328100F30101 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0D07C531A5D328100F30101 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0D07C561A5D328100F30101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0D07C581A5D328100F30101 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0D07C5B1A5D328100F30101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F0D07C611A5D328100F30101 /* SlingAlertExplorationPart1V1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlingAlertExplorationPart1V1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0D07C661A5D328100F30101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D07C671A5D328100F30101 /* SlingAlertExplorationPart1V1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlingAlertExplorationPart1V1Tests.m; sourceTree = "<group>"; };
+		F0D07C721A5D372200F30101 /* CBPeripheral+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+Ext.h"; sourceTree = "<group>"; };
+		F0D07C731A5D372200F30101 /* CBPeripheral+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+Ext.m"; sourceTree = "<group>"; };
+		F0D07C741A5D372200F30101 /* CBCentralManager+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBCentralManager+Ext.h"; sourceTree = "<group>"; };
+		F0D07C751A5D372200F30101 /* CBCentralManager+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBCentralManager+Ext.m"; sourceTree = "<group>"; };
+		F0D07C791A5D375F00F30101 /* Siren_Noise-KevanGC-1337458893.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Siren_Noise-KevanGC-1337458893.caf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0D07C451A5D328100F30101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D07C5E1A5D328100F30101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0D07C3F1A5D328100F30101 = {
+			isa = PBXGroup;
+			children = (
+				F0D07C4A1A5D328100F30101 /* SlingAlertExplorationPart1V1 */,
+				F0D07C641A5D328100F30101 /* SlingAlertExplorationPart1V1Tests */,
+				F0D07C491A5D328100F30101 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0D07C491A5D328100F30101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0D07C481A5D328100F30101 /* SlingAlertExplorationPart1V1.app */,
+				F0D07C611A5D328100F30101 /* SlingAlertExplorationPart1V1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0D07C4A1A5D328100F30101 /* SlingAlertExplorationPart1V1 */ = {
+			isa = PBXGroup;
+			children = (
+				F0D07C781A5D372D00F30101 /* Sounds */,
+				F0D07C711A5D32CE00F30101 /* Extensions */,
+				F0D07C4F1A5D328100F30101 /* AppDelegate.h */,
+				F0D07C501A5D328100F30101 /* AppDelegate.m */,
+				F0D07C521A5D328100F30101 /* ViewController.h */,
+				F0D07C531A5D328100F30101 /* ViewController.m */,
+				F0D07C551A5D328100F30101 /* Main.storyboard */,
+				F0D07C581A5D328100F30101 /* Images.xcassets */,
+				F0D07C5A1A5D328100F30101 /* LaunchScreen.xib */,
+				F0D07C4B1A5D328100F30101 /* Supporting Files */,
+			);
+			path = SlingAlertExplorationPart1V1;
+			sourceTree = "<group>";
+		};
+		F0D07C4B1A5D328100F30101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0D07C4C1A5D328100F30101 /* Info.plist */,
+				F0D07C4D1A5D328100F30101 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0D07C641A5D328100F30101 /* SlingAlertExplorationPart1V1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0D07C671A5D328100F30101 /* SlingAlertExplorationPart1V1Tests.m */,
+				F0D07C651A5D328100F30101 /* Supporting Files */,
+			);
+			path = SlingAlertExplorationPart1V1Tests;
+			sourceTree = "<group>";
+		};
+		F0D07C651A5D328100F30101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0D07C661A5D328100F30101 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0D07C711A5D32CE00F30101 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F0D07C721A5D372200F30101 /* CBPeripheral+Ext.h */,
+				F0D07C731A5D372200F30101 /* CBPeripheral+Ext.m */,
+				F0D07C741A5D372200F30101 /* CBCentralManager+Ext.h */,
+				F0D07C751A5D372200F30101 /* CBCentralManager+Ext.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F0D07C781A5D372D00F30101 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F0D07C791A5D375F00F30101 /* Siren_Noise-KevanGC-1337458893.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0D07C471A5D328100F30101 /* SlingAlertExplorationPart1V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D07C6B1A5D328100F30101 /* Build configuration list for PBXNativeTarget "SlingAlertExplorationPart1V1" */;
+			buildPhases = (
+				F0D07C441A5D328100F30101 /* Sources */,
+				F0D07C451A5D328100F30101 /* Frameworks */,
+				F0D07C461A5D328100F30101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlingAlertExplorationPart1V1;
+			productName = SlingAlertExplorationPart1V1;
+			productReference = F0D07C481A5D328100F30101 /* SlingAlertExplorationPart1V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0D07C601A5D328100F30101 /* SlingAlertExplorationPart1V1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D07C6E1A5D328100F30101 /* Build configuration list for PBXNativeTarget "SlingAlertExplorationPart1V1Tests" */;
+			buildPhases = (
+				F0D07C5D1A5D328100F30101 /* Sources */,
+				F0D07C5E1A5D328100F30101 /* Frameworks */,
+				F0D07C5F1A5D328100F30101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0D07C631A5D328100F30101 /* PBXTargetDependency */,
+			);
+			name = SlingAlertExplorationPart1V1Tests;
+			productName = SlingAlertExplorationPart1V1Tests;
+			productReference = F0D07C611A5D328100F30101 /* SlingAlertExplorationPart1V1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0D07C401A5D328100F30101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Margaret Johnson";
+				TargetAttributes = {
+					F0D07C471A5D328100F30101 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F0D07C601A5D328100F30101 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F0D07C471A5D328100F30101;
+					};
+				};
+			};
+			buildConfigurationList = F0D07C431A5D328100F30101 /* Build configuration list for PBXProject "SlingAlertExplorationPart1V1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0D07C3F1A5D328100F30101;
+			productRefGroup = F0D07C491A5D328100F30101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0D07C471A5D328100F30101 /* SlingAlertExplorationPart1V1 */,
+				F0D07C601A5D328100F30101 /* SlingAlertExplorationPart1V1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0D07C461A5D328100F30101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D07C7A1A5D375F00F30101 /* Siren_Noise-KevanGC-1337458893.caf in Resources */,
+				F0D07C571A5D328100F30101 /* Main.storyboard in Resources */,
+				F0D07C5C1A5D328100F30101 /* LaunchScreen.xib in Resources */,
+				F0D07C591A5D328100F30101 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D07C5F1A5D328100F30101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0D07C441A5D328100F30101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D07C541A5D328100F30101 /* ViewController.m in Sources */,
+				F0D07C771A5D372200F30101 /* CBCentralManager+Ext.m in Sources */,
+				F0D07C511A5D328100F30101 /* AppDelegate.m in Sources */,
+				F0D07C761A5D372200F30101 /* CBPeripheral+Ext.m in Sources */,
+				F0D07C4E1A5D328100F30101 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D07C5D1A5D328100F30101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D07C681A5D328100F30101 /* SlingAlertExplorationPart1V1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0D07C631A5D328100F30101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0D07C471A5D328100F30101 /* SlingAlertExplorationPart1V1 */;
+			targetProxy = F0D07C621A5D328100F30101 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0D07C551A5D328100F30101 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0D07C561A5D328100F30101 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0D07C5A1A5D328100F30101 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0D07C5B1A5D328100F30101 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0D07C691A5D328100F30101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0D07C6A1A5D328100F30101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0D07C6C1A5D328100F30101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlingAlertExplorationPart1V1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0D07C6D1A5D328100F30101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlingAlertExplorationPart1V1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0D07C6F1A5D328100F30101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlingAlertExplorationPart1V1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlingAlertExplorationPart1V1.app/SlingAlertExplorationPart1V1";
+			};
+			name = Debug;
+		};
+		F0D07C701A5D328100F30101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SlingAlertExplorationPart1V1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlingAlertExplorationPart1V1.app/SlingAlertExplorationPart1V1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0D07C431A5D328100F30101 /* Build configuration list for PBXProject "SlingAlertExplorationPart1V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D07C691A5D328100F30101 /* Debug */,
+				F0D07C6A1A5D328100F30101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D07C6B1A5D328100F30101 /* Build configuration list for PBXNativeTarget "SlingAlertExplorationPart1V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D07C6C1A5D328100F30101 /* Debug */,
+				F0D07C6D1A5D328100F30101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0D07C6E1A5D328100F30101 /* Build configuration list for PBXNativeTarget "SlingAlertExplorationPart1V1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0D07C6F1A5D328100F30101 /* Debug */,
+				F0D07C701A5D328100F30101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0D07C401A5D328100F30101 /* Project object */;
+}
