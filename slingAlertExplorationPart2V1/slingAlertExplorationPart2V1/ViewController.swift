@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController,BeaconDelegate,BTDiscoveryDelegate{
     @IBOutlet weak var proximityLabel: UILabel!
     @IBOutlet weak var rssiLabel: UILabel!
+    @IBOutlet weak var accuracyLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,11 +24,14 @@ class ViewController: UIViewController,BeaconDelegate,BTDiscoveryDelegate{
         // Dispose of any resources that can be recreated.
     }
     //MARK: BeaconDelegate callback
-    func beaconDidUpdate(proximity:String,rssi:String) {
+    func beaconDidUpdate(proximity:String,accuracy:String,rssi:String) {
         proximityLabel.text = proximity
+        accuracyLabel.text = accuracy
         rssiLabel.text = rssi
         var message = "beaconDidUpdate...Proximity : "
         message += proximity
+        message += " Accuracy: "
+        message += accuracy
         message += " RSSI: "
         message += rssi
         println(message)

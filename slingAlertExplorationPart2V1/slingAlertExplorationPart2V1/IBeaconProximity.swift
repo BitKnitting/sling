@@ -13,7 +13,7 @@ let beaconName = "HELP"
 let beaconUUID:NSUUID = NSUUID(UUIDString:beaconUUIDString)!
 
 protocol BeaconDelegate {
-    func beaconDidUpdate(proximity:String,rssi:String)
+    func beaconDidUpdate(proximity:String,accuracy:String,rssi:String)
 }
 
 
@@ -50,8 +50,9 @@ class IBeaconProximity: NSObject, CLLocationManagerDelegate {
             default:
                 proximity = "Not Found"
             }
+            let accuracy = NSString(format:"%.2f",nearestBeacon.accuracy)
             let rssi =  NSString(format:"%ld",nearestBeacon.rssi)
-            delegate!.beaconDidUpdate(proximity,rssi: rssi)
+            delegate!.beaconDidUpdate(proximity,accuracy:accuracy,rssi: rssi)
         }
     }
    // MARK: - Functions
